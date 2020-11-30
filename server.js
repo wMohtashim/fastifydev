@@ -58,6 +58,9 @@ const fastify = require('fastify')({ logger: true })
 // fastify.register(require('./db-conector'))
 fastify.register(require('./route'))
 
+
+
+
 // Run the server!
 const start = async () => {
     try {
